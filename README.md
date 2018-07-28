@@ -1,4 +1,3 @@
-"# java-teen.github.io" 
 <a href="https://github.com/java-teen/java-teen.github.io/tree/master/examples1">examples 1</a><br/>
 <a href="https://github.com/java-teen/java-teen.github.io/tree/master/examples2">examples 2</a><br/>
 <a href="https://github.com/java-teen/java-teen.github.io/tree/master/examples3">examples 3</a><br/>
