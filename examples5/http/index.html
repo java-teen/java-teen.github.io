@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>WEB-page example</title>
+		<base href="./">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="main filled">
+			<h3>Content of %1$s</h3>
+			<form method=POST enctype="multipart/form-data">
+				<table class="filled">
+					<col width=20%%><col width=80%%>
+					<tr>
+						<td>
+							<table class="filled">
+								<tr>
+									<td class="wfilled">
+										<button id="save" formaction="index.html?mode=save&name=%2$s">save</button>
+										<button id="exit" formaction="index.html?mode=exit">stop server</button>
+									</td>
+								</tr>
+								<tr>
+									<td class="filled">
+										<table class="dbordered wfilled htop">
+												<tr><td><a href="index.html?mode=up">..</a></td></tr>
+												%3$s
+										</table>
+									</td>
+								<tr>
+							</table>
+						</td>
+						<td class="bordered filled">
+							<textarea id="content" name="textarea" class="editor filled">%4$s</textarea>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
+

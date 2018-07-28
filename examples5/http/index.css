@@ -1,0 +1,29 @@
+div.main {
+	background-color: lightblue;
+	width  : 100%;
+}
+
+.wfilled {
+	width  : 100%;
+}
+
+.filled {
+	width  : 100%;
+	height  : 100%;
+}
+
+.bordered {
+	border: 4px black;
+}
+
+.dbordered {
+	border: 4px double black;
+	font: 12pt courier;
+}
+
+.editor {
+}
+
+.htop {
+	vertical-align: top;
+}
